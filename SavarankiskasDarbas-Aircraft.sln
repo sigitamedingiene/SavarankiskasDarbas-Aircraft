@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SavarankiskasDarbas", "Sava
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SavarankiskasDarbas.Bussnes", "SavarankiskasDarbas.Bussnes\SavarankiskasDarbas.Bussnes.csproj", "{CDB93902-1361-4627-B800-4EB3F07F08FC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SavaramkiskasDarbas-DataAcsess", "SavaramkiskasDarbas-DataAcsess\SavaramkiskasDarbas-DataAcsess.csproj", "{FCC46D20-4F24-4E47-961A-DB00261B3E5E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{CDB93902-1361-4627-B800-4EB3F07F08FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CDB93902-1361-4627-B800-4EB3F07F08FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CDB93902-1361-4627-B800-4EB3F07F08FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCC46D20-4F24-4E47-961A-DB00261B3E5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCC46D20-4F24-4E47-961A-DB00261B3E5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCC46D20-4F24-4E47-961A-DB00261B3E5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCC46D20-4F24-4E47-961A-DB00261B3E5E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
