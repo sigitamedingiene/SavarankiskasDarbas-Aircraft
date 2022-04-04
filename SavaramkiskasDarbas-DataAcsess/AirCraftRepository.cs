@@ -22,7 +22,7 @@ namespace SavaramkiskasDarbas_DataAcsess
 
             airCrafts = new List<Aircraft>();
             airCrafts.Add(new Aircraft(1, model1, company1));
-            airCrafts.Add(new Aircraft(1, model2, company2));
+            airCrafts.Add(new Aircraft(2, model2, company2));
 
         } // public Aircraft(int tailNumber, Model model, Company company)
 
