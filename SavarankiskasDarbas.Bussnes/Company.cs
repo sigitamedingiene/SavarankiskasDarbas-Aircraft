@@ -8,12 +8,12 @@ namespace SavarankiskasDarbas.Bussnes
 {
     public class Company
     {
-        public string CompanyName { get; }
+        public string Name { get; }
         public Country Country { get; }
 
-        public Company (string comapnyName, Country country)
+        public Company (string name, Country country)
         {
-            CompanyName = comapnyName;
+            Name = name;
             Country = country;
         }
     }
