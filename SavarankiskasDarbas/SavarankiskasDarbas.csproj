@@ -5,4 +5,9 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SavaramkiskasDarbas-DataAcsess\SavaramkiskasDarbas-DataAcsess.csproj" />
+    <ProjectReference Include="..\SavarankiskasDarbas.Bussnes\SavarankiskasDarbas.Bussnes.csproj" />
+  </ItemGroup>
+
 </Project>
