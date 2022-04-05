@@ -26,15 +26,23 @@ namespace SavaramkiskasDarbas_DataAcsess
         }
 
         public bool IsCountryInEurope(string code)
-        {
+        {   bool countryEU = false;
             for (int i = 0; i < countriesEU.Count; i++)
             {
-                if(countriesEU[i].Code == countries[i].Code)
+                for (int j = 0; j < countries.Count; j++)
                 {
-                    return true;
-                }                
+                    if (countriesEU[i].Code == countries[j].Code)
+                    {
+                        countryEU = true;
+                    }
+                    else
+                    {
+                        countryEU = false;
+                    }
+                }
+                      
             }
-            return false;
+            return countryEU;
         }
 
         public List<Country> Retrieve()
