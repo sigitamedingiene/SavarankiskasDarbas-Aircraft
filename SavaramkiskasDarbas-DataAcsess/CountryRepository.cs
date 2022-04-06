@@ -31,13 +31,9 @@ namespace SavaramkiskasDarbas_DataAcsess
               if (code == countriesEU[i].Code)
                     {
                     return true;
-                    }
-                    else
-                    {
-                    return false;
-                    }                     
+                    }                                      
             }
-            return true;
+            return false;
         }
 
         public List<Country> Retrieve()
