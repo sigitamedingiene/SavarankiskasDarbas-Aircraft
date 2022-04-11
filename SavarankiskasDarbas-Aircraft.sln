@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SavarankiskasDarbas.Bussnes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SavaramkiskasDarbas-DataAcsess", "SavaramkiskasDarbas-DataAcsess\SavaramkiskasDarbas-DataAcsess.csproj", "{FCC46D20-4F24-4E47-961A-DB00261B3E5E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListGenerator", "ListGenerator\ListGenerator.csproj", "{BF7A3367-0003-478E-BE26-FD47840D0A4E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{FCC46D20-4F24-4E47-961A-DB00261B3E5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FCC46D20-4F24-4E47-961A-DB00261B3E5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FCC46D20-4F24-4E47-961A-DB00261B3E5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF7A3367-0003-478E-BE26-FD47840D0A4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF7A3367-0003-478E-BE26-FD47840D0A4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF7A3367-0003-478E-BE26-FD47840D0A4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF7A3367-0003-478E-BE26-FD47840D0A4E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

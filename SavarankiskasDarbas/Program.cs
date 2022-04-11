@@ -1,4 +1,5 @@
-﻿using SavaramkiskasDarbas_DataAcsess;
+﻿using ListGenerator;
+using SavaramkiskasDarbas_DataAcsess;
 using SavarankiskasDarbas.Bussnes;
 using System;
 using System.Collections.Generic;
@@ -33,7 +34,7 @@ namespace SavarankiskasDarbas
                     aircraftModelListInEU.Add(new Aircraft(aircraftList[i].TailNumber, aircraftModel, company));
 
                     Console.ForegroundColor = ConsoleColor.Green;
-                    Console.WriteLine("Europoje esančių lėktuvų sąrašas: \r\n ");
+                    Console.WriteLine("Europoje esančių lėktuvų sąrašas:");
                     Console.ResetColor();
                     Console.WriteLine($"Nr:{aircraftList[i].TailNumber}, {aircraftList[i].Model.Number}, {aircraftList[i].Model.Description}\r\n{aircraftList[i].Company.Name}, {aircraftList[i].Company.Country.Name}");
                 }
@@ -44,8 +45,10 @@ namespace SavarankiskasDarbas
                     Console.ResetColor();
                 }         
             }
+            AircraftListGenerator aircraftListGenerator = new AircraftListGenerator();
+            aircraftListGenerator.GenerateList();
 
-            
+
         }
     }
 } 
